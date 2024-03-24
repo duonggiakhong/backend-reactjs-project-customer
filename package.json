@@ -1,0 +1,33 @@
+{
+  "name": "backend-reactjs-eric",
+  "version": "1.0.0",
+  "description": "backend react",
+  "main": "app.js",
+  "scripts": {
+    "test": "world hello me",
+    "dev": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duonggiakhong/backend-reactjs-project-customer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duonggiakhong/backend-reactjs-project-customer.git/issues"
+  },
+  "homepage": "https://github.com/duonggiakhong/backend-reactjs-project-customer.git#readme",
+  "dependencies": {
+    "api-query-params": "5.4.0",
+    "dotenv": "10.0.0",
+    "ejs": "3.1.6",
+    "express": "4.17.1",
+    "express-fileupload": "1.4.0",
+    "mongoose": "6.7.2",
+    "mongoose-delete": "0.5.4",
+    "mysql2": "2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

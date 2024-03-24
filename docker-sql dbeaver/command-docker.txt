@@ -1,0 +1,34 @@
+install:
+vs code
+nodejs .xml
+docker
+mongoDB
+
+npm i 
+npm run dev 
+
+
+------command connection with DBeaver-------
+docker compose -f mysql.yml -p nodejs-sql up -d
+
+------command connection with mongodb-------
+docker compose -p nodejs-mongdb up -d
+
+f: file name
+-p: project name
+-d : detach, run as background
+
+------connection API RESTFULL-------
+GET ALL API:
+
+http://localhost:8081/v1/api/users
+
+    res.status(200).json({
+        er: 0,
+        data: users
+    })
+
+
+keywords:
+--paginate : phân trang
+
